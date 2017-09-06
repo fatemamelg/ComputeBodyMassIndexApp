@@ -1,0 +1,24 @@
+﻿<Page
+    x:Class="ComputeBodyMassIndexApp.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:ComputeBodyMassIndexApp"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:UI = "using:Microsoft.Advertising.WinRT.UI" 
+    mc:Ignorable="d">
+
+    <StackPanel Background="#FFE4C4">
+        <TextBlock Text="Compute Body Mass Index" HorizontalAlignment="Center" FontSize="50" Margin="0,10" />
+
+        <TextBlock Margin="10,10" FontSize="20">
+            This program is used to calculate your body mass index and determine whether you are underweight, normal, overweight or obese.
+        </TextBlock>
+
+        <Button x:Name="kgAndMeter" Content="Enter to calculate your BMI" Margin="0,100" HorizontalAlignment="Center"
+                 Click="kg_meter_Click"/>
+            
+
+
+    </StackPanel>
+</Page>
