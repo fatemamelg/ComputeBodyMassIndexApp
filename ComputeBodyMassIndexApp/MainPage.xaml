@@ -11,8 +11,10 @@
     <StackPanel Background="#FFE4C4">
         <TextBlock Text="Compute Body Mass Index" HorizontalAlignment="Center" FontSize="50" Margin="0,10" />
 
-        <TextBlock Margin="10,10" FontSize="20">
-            This program is used to calculate your body mass index and determine whether you are underweight, normal, overweight or obese.
+        <TextBlock Text="Purpose of the program:" Margin="30,10" FontSize="30"/>
+        <TextBlock Margin="30,10" FontSize="20">
+            A simple program for calculating your body mass index and determine whether you are underweight, normal, 
+            overweight or obese.
         </TextBlock>
 
         <Button x:Name="kgAndMeter" Content="Enter to calculate your BMI" Margin="0,100" HorizontalAlignment="Center"
